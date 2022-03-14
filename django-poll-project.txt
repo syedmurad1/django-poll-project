@@ -27,7 +27,7 @@ python -m pip install django
 
 
 ---------------------------------
-# to Activate - is my_env/bin - not susere - source my_env/bin/activate -- good - environment\Scripts\activate 
+# to Activate - is my_env/bin - not susere - source my_env/bin/activate -- good - environment\Scripts\activate - my_env\Scripts\activate
 # to deactivate - deactivate 
 
 
