@@ -1,0 +1,9 @@
+pip
+m pip install --upgrade pip
+
+
+-------------------------
+pip install django - it will do globely
+
+pip install pipenv shell
+
