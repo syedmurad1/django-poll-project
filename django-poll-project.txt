@@ -3,7 +3,42 @@ m pip install --upgrade pip
 
 
 -------------------------
+Creating Virtual Environment for Python
+
 pip install django - it will do globely
 
+open bash terminal
+pip install pipenv
 pip install pipenv shell
 
+
+----------
+mathod 1
+open bash terminal
+Python -m venv my_env
+my_env/Scripts/Activate.bat
+
+#View> Command Palette> Python select intereter> enter intereter path> find > myenv/Scripts/python.exe
+#now install all the pip you need 
+
+m pip install --upgrade pip
+python -m pip install django
+
+
+
+---------------------------------
+# to Activate - is my_env/bin - not susere - source my_env/bin/activate -- good - environment\Scripts\activate 
+# to deactivate - deactivate 
+
+
+
+
+
+
+
+
+
+
+
+link - 
+https://www.youtube.com/watch?v=MmZTZb7bcwc
