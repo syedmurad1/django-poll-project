@@ -1,0 +1,65 @@
+1.
+pip install django-(dont run)
+pip install pipenv
+pipenv shell
+pipenv install django
+
+2.
+django-admin startproject mypoll
+python manage.py runserver 8081
+
+CTRL-BREAK (Or C)
+
+3.
+python manage.py migrate
+python manage.py startapp polls
+# Settings - 'polls.app.PollsConfig', 
+# Models - file
+python manage.py makemigrations polls
+
+4.
+python manage.py shell
+
+from polls.models import Question, Choice
+from django.utils import timezone
+Question.objects.all()
+q = Question(question_text="What is your favorite programming language?", pub_date=timezone.now())
+q.save()
+q.id
+q.question_text
+Question.objects.all()
+Question.objects.filter(id=1)
+Question.objects.get(pk=1)
+q = Question.objects.get(pk=1)
+q.choice_set.all()
+q.choice_set.create(choice_text='Python', votes=0)
+q.choice_set.create(choice_text='C++', votes=0)
+q.choice_set.create(choice_text='Java', votes=0)
+q.choice_set.all()
+
+quit()
+
+5.
+python manage.py createsuperuser
+http://127.0.0.1:8081/admin/
+
+6.
+mypoll>polls>admin.py - file
+http://127.0.0.1:8081/admin/
+
+7.
+mypoll>polls>admin.py - file
+http://127.0.0.1:8081/admin/
+
+8.
+mypoll>polls>views.py - file
+mypoll>polls> - urls.py ...
+mypoll>polls> - templates ...
+
+mypoll>settings.py - TEMPLATES- 'DIRS': [os.path.join(BASE_DIR, 'templates')],
+mypoll>polls>templates>base.html...
+
+
+------------------------
+# Create pages app
+python manage.py startapp pages
