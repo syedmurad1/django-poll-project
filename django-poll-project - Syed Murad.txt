@@ -6,18 +6,19 @@ pipenv install django
 
 2.
 django-admin startproject mypoll
-python manage.py runserver 8081
+python manage.py runserver
 
 CTRL-BREAK (Or C)
+python manage.py migrate
 
 3.
-python manage.py migrate
 python manage.py startapp polls
 # Settings - 'polls.app.PollsConfig', 
 # Models - file
+# python interpreter - mypoll
 python manage.py makemigrations polls
 
-4.
+4. - optional 
 python manage.py shell
 
 from polls.models import Question, Choice
@@ -41,24 +42,26 @@ quit()
 
 5.
 python manage.py createsuperuser
-http://127.0.0.1:8081/admin/
+http://127.0.0.1:8000/admin/
 
 6.
 mypoll>polls>admin.py - file
 http://127.0.0.1:8081/admin/
 
 7.
-mypoll>polls>admin.py - file
+mypoll>polls>view.py - file
 http://127.0.0.1:8081/admin/
 
 8.
 mypoll>polls>views.py - file
 mypoll>polls> - urls.py ...
+mypoll> - urls.py ...
 mypoll>polls> - templates ...
 
+mypoll>polls>templates>index.html 
 mypoll>settings.py - TEMPLATES- 'DIRS': [os.path.join(BASE_DIR, 'templates')],
 mypoll>polls>templates>base.html...
-
+mypoll>polls>templates>index.html - file
 
 ------------------------
 # Create pages app
