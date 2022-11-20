@@ -6,7 +6,7 @@ pipenv install django
 
 2.
 django-admin startproject mypoll
-python manage.py runserver
+python manage.py runserver  # run in mypoll, cd mypoll
 
 CTRL-BREAK (Or C)
 python manage.py migrate
