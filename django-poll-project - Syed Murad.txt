@@ -66,3 +66,4 @@ mypoll>polls>templates>index.html - file
 ------------------------
 # Create pages app
 python manage.py startapp pages
+
