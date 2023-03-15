@@ -1,9 +1,9 @@
 create django-poll-project folder
 1.
 pip install django-(dont run)
-pip install pipenv
+pip install pipenv or pipenv install
 pipenv shell
-pipenv install django
+pipenv install django or pip3
 
 2.
 django-admin startproject mypoll
