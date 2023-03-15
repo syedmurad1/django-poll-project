@@ -13,9 +13,9 @@ CTRL-BREAK (Or C)
 python manage.py migrate
 
 3.
-python manage.py startapp polls
+python manage.py startapp polls   # app
 # add in Settings - 'polls.app.PollsConfig', 
-# Models - file
+# polls>Models - file
 # python interpreter - mypoll
 python manage.py makemigrations polls
 
