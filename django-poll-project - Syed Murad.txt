@@ -14,7 +14,7 @@ python manage.py migrate
 
 3.
 python manage.py startapp polls
-# Settings - 'polls.app.PollsConfig', 
+# add in Settings - 'polls.app.PollsConfig', 
 # Models - file
 # python interpreter - mypoll
 python manage.py makemigrations polls
