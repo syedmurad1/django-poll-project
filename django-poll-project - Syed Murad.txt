@@ -47,11 +47,11 @@ http://127.0.0.1:8001/admin/
 python manage.py shell
 
 6.
-mypoll>polls>admin.py - file
+mypoll>polls>admin.py - file  # 
 http://127.0.0.1:8001/admin/
 
 7.
-mypoll>polls>view.py - file
+mypoll>polls>view.py - file - Create views and we also need to create a file urls.py (mypoll>polls> - urls.pyto display )
 http://127.0.0.1:8001/admin/
 
 8.

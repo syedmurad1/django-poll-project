@@ -7,7 +7,7 @@ admin.site.site_header = "Mypoll Admin"
 admin.site.site_title = "Mypoll Admin Area"
 admin.site.index_title = "Welcome to the Mypoll admin area"
 
-
+# use TabularInline
 class ChoiceInline(admin.TabularInline):
     model = Choice
     extra = 3
