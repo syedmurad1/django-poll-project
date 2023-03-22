@@ -43,15 +43,16 @@ quit()
 
 5.
 python manage.py createsuperuser
-http://127.0.0.1:8000/admin/
+http://127.0.0.1:8001/admin/
+python manage.py shell
 
 6.
 mypoll>polls>admin.py - file
-http://127.0.0.1:8081/admin/
+http://127.0.0.1:8001/admin/
 
 7.
 mypoll>polls>view.py - file
-http://127.0.0.1:8081/admin/
+http://127.0.0.1:8001/admin/
 
 8.
 mypoll>polls>views.py - file
