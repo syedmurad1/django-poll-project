@@ -14,7 +14,7 @@ python manage.py migrate
 
 3.
 python manage.py startapp polls   # app
-# add in Settings - 'polls.app.PollsConfig', 
+# add in Settings - 'polls.app.PollsConfig', # may need to run http://127.0.0.1:8001
 # polls>Models - file
 # python interpreter - mypoll
 python manage.py makemigrations polls
