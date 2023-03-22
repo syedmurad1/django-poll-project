@@ -56,13 +56,13 @@ http://127.0.0.1:8001/admin/
 
 8.
 mypoll>polls>views.py - file
-mypoll>polls> - urls.py ...
-mypoll> - urls.py ...
-mypoll>polls> - templates ...
+mypoll>polls> - urls.py ... add import and Raught 
+mypoll> - urls.py ... need to include in main url
+mypoll>polls> - templates ... we need to create templates folder under mypoll and under templates one more folder call polls. inside polls index.html
 
-mypoll>polls>templates>index.html 
+mypoll>polls>templates>index.html - 
 mypoll>settings.py - TEMPLATES- 'DIRS': [os.path.join(BASE_DIR, 'templates')],
-mypoll>polls>templates>base.html...
+mypoll>polls>templates>base.html... - file - base e,g title and add bootstrap https://getbootstrap.com/docs/4.3/getting-started/introduction/
 mypoll>polls>templates>index.html - file
 
 ------------------------
